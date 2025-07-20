@@ -1,0 +1,43 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# Goland / JetBrains
+.idea/
+*.iml
+
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Emacs
+*~ 
+# Atom
+.atom/
+
+# Os + Misc
+.DS_Store       # macOS Finder metadata
+Thumbs.db       # Windows Explorer metadata
+ehthumbs.db
+Desktop.ini
+
+# Testing
+*.cover
+*.testresult
+coverage.*
+coverage.out
+testdata/
+
+# Python + App Specific
+__pycache__/
+
+venv
+*.egg-info
+
+graphs/*.png
